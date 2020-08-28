@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCE85D9124F8F41C0095544A /* ChatOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE85D9024F8F41C0095544A /* ChatOverview.swift */; };
+		CCE85D9324F9041A0095544A /* ChatRoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE85D9224F9041A0095544A /* ChatRoomView.swift */; };
 		CCF75D4824F6AD3100A91C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D4724F6AD3100A91C0B /* AppDelegate.swift */; };
 		CCF75D4A24F6AD3100A91C0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D4924F6AD3100A91C0B /* SceneDelegate.swift */; };
-		CCF75D4C24F6AD3100A91C0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D4B24F6AD3100A91C0B /* ContentView.swift */; };
+		CCF75D4C24F6AD3100A91C0B /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D4B24F6AD3100A91C0B /* ChatListView.swift */; };
 		CCF75D4E24F6AD3300A91C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF75D4D24F6AD3300A91C0B /* Assets.xcassets */; };
 		CCF75D5124F6AD3300A91C0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF75D5024F6AD3300A91C0B /* Preview Assets.xcassets */; };
 		CCF75D5424F6AD3300A91C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF75D5224F6AD3300A91C0B /* LaunchScreen.storyboard */; };
 		CCF75D5F24F6AD3300A91C0B /* DoveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D5E24F6AD3300A91C0B /* DoveTests.swift */; };
 		CCF75D6A24F6AD3300A91C0B /* DoveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF75D6924F6AD3300A91C0B /* DoveUITests.swift */; };
+		CCF8337D24F8EE9400F15F56 /* ChatListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8337C24F8EE9400F15F56 /* ChatListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CCE85D9024F8F41C0095544A /* ChatOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatOverview.swift; sourceTree = "<group>"; };
+		CCE85D9224F9041A0095544A /* ChatRoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomView.swift; sourceTree = "<group>"; };
 		CCF75D4424F6AD3000A91C0B /* Dove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF75D4724F6AD3100A91C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF75D4924F6AD3100A91C0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCF75D4B24F6AD3100A91C0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCF75D4B24F6AD3100A91C0B /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
 		CCF75D4D24F6AD3300A91C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF75D5024F6AD3300A91C0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCF75D5324F6AD3300A91C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		CCF75D6524F6AD3300A91C0B /* DoveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF75D6924F6AD3300A91C0B /* DoveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoveUITests.swift; sourceTree = "<group>"; };
 		CCF75D6B24F6AD3300A91C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF8337C24F8EE9400F15F56 /* ChatListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CCE85D8E24F8F3FC0095544A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CCE85D9024F8F41C0095544A /* ChatOverview.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CCE85D8F24F8F4030095544A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		CCF75D3B24F6AD3000A91C0B = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +120,11 @@
 		CCF75D4624F6AD3100A91C0B /* Dove */ = {
 			isa = PBXGroup;
 			children = (
+				CCE85D8F24F8F4030095544A /* Models */,
+				CCE85D8E24F8F3FC0095544A /* ViewModels */,
+				CCF8337B24F8EE7300F15F56 /* Views */,
 				CCF75D4724F6AD3100A91C0B /* AppDelegate.swift */,
 				CCF75D4924F6AD3100A91C0B /* SceneDelegate.swift */,
-				CCF75D4B24F6AD3100A91C0B /* ContentView.swift */,
 				CCF75D4D24F6AD3300A91C0B /* Assets.xcassets */,
 				CCF75D5224F6AD3300A91C0B /* LaunchScreen.storyboard */,
 				CCF75D5524F6AD3300A91C0B /* Info.plist */,
@@ -134,6 +157,16 @@
 				CCF75D6B24F6AD3300A91C0B /* Info.plist */,
 			);
 			path = DoveUITests;
+			sourceTree = "<group>";
+		};
+		CCF8337B24F8EE7300F15F56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCF75D4B24F6AD3100A91C0B /* ChatListView.swift */,
+				CCF8337C24F8EE9400F15F56 /* ChatListItemView.swift */,
+				CCE85D9224F9041A0095544A /* ChatRoomView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +302,10 @@
 			files = (
 				CCF75D4824F6AD3100A91C0B /* AppDelegate.swift in Sources */,
 				CCF75D4A24F6AD3100A91C0B /* SceneDelegate.swift in Sources */,
-				CCF75D4C24F6AD3100A91C0B /* ContentView.swift in Sources */,
+				CCE85D9124F8F41C0095544A /* ChatOverview.swift in Sources */,
+				CCF75D4C24F6AD3100A91C0B /* ChatListView.swift in Sources */,
+				CCF8337D24F8EE9400F15F56 /* ChatListItemView.swift in Sources */,
+				CCE85D9324F9041A0095544A /* ChatRoomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +475,7 @@
 				DEVELOPMENT_TEAM = FY2C2X47F9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Dove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,7 +483,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baski.labs.Dove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -459,6 +496,7 @@
 				DEVELOPMENT_TEAM = FY2C2X47F9;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Dove/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +504,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.baski.labs.Dove;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
